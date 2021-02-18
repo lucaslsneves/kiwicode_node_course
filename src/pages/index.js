@@ -1,18 +1,18 @@
 import React from 'react'
-import { MainContainer } from '../components/MainContainer'
 import Header from '../components/Header'
 import GlobalStyle from '../styles/global'
 import IntroSection from '../components/IntroSection1'
 import AboutSection from '../components/AboutSection'
+import { MainColorContainer } from '../components/MainColorContainer'
 
 function IndexPage () {
   return (
-    <MainContainer>
+    <MainColorContainer>
       <Header />
-      <IntroSection/>
-      <AboutSection/>
+      <IntroSection />
+      <AboutSection />
       <GlobalStyle />
-    </MainContainer>
+    </MainColorContainer>
   )
 }
 

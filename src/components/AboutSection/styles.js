@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
+export const Color = styled.div`
+  background-color: #fff;
+`
 export const Container = styled.div`
   @media(max-width:1180px) {
     display:flex;
@@ -12,9 +15,9 @@ export const Container = styled.div`
     }
   }
 
-
-  padding: 0 100px;
-  margin-top:70px;
+  background-color: #fff;
+  padding: 50px 100px;
+  margin-top: 30px;
   display:flex;
   justify-content:space-between;
   align-items: center;

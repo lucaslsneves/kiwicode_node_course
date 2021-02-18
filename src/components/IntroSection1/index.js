@@ -1,9 +1,11 @@
 import React from 'react'
 import ListItem from '../ListItem'
+import { ContainerMaxWidth } from '../MaxWidthContainer'
 import { Container, Title } from './styles'
 
 function IntroSection () {
   return (
+    <ContainerMaxWidth>
     <Container>
       <div>
         <Title>
@@ -26,6 +28,7 @@ function IntroSection () {
       </div>
       <img src="/section1.png"></img>
     </Container>
+    </ContainerMaxWidth>
   )
 }
 
