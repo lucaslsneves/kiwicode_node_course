@@ -1,13 +1,17 @@
 import React from 'react'
-import { MainContainer } from '../components/main-container'
-import Header from '../components/header'
+import { MainContainer } from '../components/MainContainer'
+import Header from '../components/Header'
 import GlobalStyle from '../styles/global'
+import IntroSection from '../components/IntroSection1'
+
 function IndexPage () {
-  return <MainContainer>
-     <Header></Header>
-       <GlobalStyle/>
-       <h1>oi</h1>
-  </MainContainer>
+  return (
+    <MainContainer>
+      <Header />
+      <IntroSection/>
+      <GlobalStyle />
+    </MainContainer>
+  )
 }
 
 export default IndexPage

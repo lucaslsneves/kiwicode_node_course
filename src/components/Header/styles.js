@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 
 export const StyledHeader = styled.header`
-  padding: 30px 0;
+@media(max-width:1020px) {
+    justify-content:center;
+    padding: 10px 0;
+   
+  }
+  
+  padding: 25px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+ 
   > div {
     display: flex;
     align-items: center;
@@ -14,6 +20,7 @@ export const StyledHeader = styled.header`
       font-size: 20px;
       color:#222;
       text-transform: uppercase;
+      font-weight: 400;
     }
   }
 `
