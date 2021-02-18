@@ -35,10 +35,20 @@ export const Container = styled.div`
       margin-bottom: 10px;
     }
    h2 {
+     line-height:1.4;
     font-size: 24px;
      color: #00d56f;
      margin-bottom: 15px;
+      font-weight:400;
+     strong {
+       font-weight:700;
+       border-bottom: 2px solid #D50066;
+     }
    }
+   ul{
+     margin-left:15px;
+   }
+   
    
   }
 `

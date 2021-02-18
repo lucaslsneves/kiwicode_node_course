@@ -14,12 +14,14 @@ function IntroSection () {
           <p>
             Aprenda a criar uma API utilizando boas práticas como:
         </p>
+          <ul>
           <ListItem>Clean Architecture</ListItem>
           <ListItem>TDD</ListItem>
           <ListItem>SOLID</ListItem>
+          </ul>
         </div>
         <h2>
-          E conquiste os maiores salários do mercado de trabalho!
+          E conquiste os <strong>maiores salários</strong> do mercado de trabalho!
         </h2>
       </div>
       <img src="/section1.png"></img>
