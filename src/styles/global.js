@@ -1,7 +1,16 @@
 import { createGlobalStyle } from 'styled-components'
+import 'slick-carousel/slick/slick.css'
 
+import 'slick-carousel/slick/slick-theme.css'
 export default createGlobalStyle`
+  .container {
+  padding: 40px;
+  background: #419be0;
+}
 
+.slick-slide img {
+  margin: auto;
+}
   *{
     margin: 0;
     padding: 0;

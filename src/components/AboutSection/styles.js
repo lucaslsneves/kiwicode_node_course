@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Color = styled.div`
   background-color: #fff;
+  padding: 20px 0;
 `
 export const Container = styled.div`
   @media(max-width:1180px) {
@@ -29,7 +30,6 @@ export const Content = styled.div`
 }
   display:flex;
   flex-direction:column;
-  color: #222;
   p {
     font-size: 17px;
     text-align:justify;
@@ -38,7 +38,7 @@ export const Content = styled.div`
   }
 `
 export const Title = styled.div`
-  border-left: 5px solid #00d56f;
+  border-left: 5px solid #D50066;
   padding-left:15px;
   @media(max-width:1180px) {
   
@@ -46,9 +46,6 @@ export const Title = styled.div`
       font-size:23px !important;
     }
 }
-  h1 {
-    color: #222;
-    font-size: 26px;
-  }
+
   margin-bottom: 15px;
 `

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContainerMaxWidth } from '../MaxWidthContainer'
-
-import { Container, Content, Title, Color } from './styles'
+import SectionTitle from '../SectionTitle'
+import { Container, Content, Color } from './styles'
 
 function AboutSection () {
   return (
@@ -11,7 +11,7 @@ function AboutSection () {
 
           <img src="/about.png" alt="Sobre o curso" />
           <Content>
-            <Title><h1>O que iremos construir</h1></Title>
+            <SectionTitle color={'#222'}>O que iremos construir</SectionTitle>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Fugiat laudantium doloribus molestias inventore architecto cupiditate distinctio aliquam, perspiciatis error delectus
