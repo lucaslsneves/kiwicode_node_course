@@ -14,6 +14,15 @@ export const ImageCard = styled.div`
       width: 330px !important;
     }
   }
+
+  @media(max-width: 330px){
+    width: 300px !important;
+    margin-right: 0 !important;
+    margin-top: 10px !important;
+    img {
+      width: 300px !important;
+    }
+  }
   img {
     margin-top: 10px;
   }
