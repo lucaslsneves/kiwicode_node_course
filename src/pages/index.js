@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import GlobalStyle from '../styles/global'
+import PriceSection from '../components/PriceSection'
 import IntroSection from '../components/IntroSection1'
 import AboutSection from '../components/AboutSection'
 import JobsSection from '../components/JobsSection'
@@ -17,6 +18,7 @@ function IndexPage () {
       <TechsSection/>
       <JobsSection/>
       <ConceptsSection/>
+      <PriceSection/>
       <GlobalStyle />
     </MainColorContainer>
   )

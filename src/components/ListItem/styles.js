@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.li`
 position:relative;
 
- margin-bottom:10px;
+ margin-bottom:12px;
  padding-left: 15px;
   span {
     margin-left: 4px;
@@ -20,4 +20,5 @@ position:relative;
     border-radius: 100%;
     background:  #00d56f repeat scroll 0% 0%;
   }
+ 
 `
