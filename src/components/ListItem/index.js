@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container } from './styles'
-function ListItem ({ children }) {
+function ListItem ({ children, fontSize = 20 }) {
   return (
-    <Container>
+    <Container fontSize={fontSize}>
       <span>{children}</span>
     </Container>
   )

@@ -1,8 +1,71 @@
 import styled from 'styled-components'
+export const Jobs = styled.div`
+@media(max-width: 1200px){
+  margin-top: 0px;
+  flex-direction:column;
+  align-items:center;
+}
+margin-top: 40px;
+width:100%;
+  display:flex;
+  justify-content:space-between;
+`
+
+export const JobItem = styled.div`
+position:relative;
+@media(max-width: 1200px){
+ margin-top: 15px;
+}
+@media(max-width: 440px){
+ width: 100%;
+}
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+display:flex;
+flex-direction: column;
+height:350px;
+width:330px;
+border-radius: 20px;
+  background-color: ${props => props.backgroundColor};
+
+h3 {
+  padding-top: 20px;
+  padding-bottom:20px;
+  text-align:center;
+  color: ${props => props.backgroundColor === '#fff' ? '#00d56f' : '#fff'};
+  border-bottom: 1px solid ${props => props.backgroundColor === '#fff' ? '#222' : '#fff'};
+}
+
+> div {
+
+  display:flex;
+  flex-direction: column;
+  padding:10px;
+  color: ${props => props.backgroundColor === '#fff' ? '#222' : '#fff'};
+ ul {
+   margin-top: 10px;
+  
+  li {
+    margin-left: 10px;
+  }
+ }
+ p {
+   color: #7d7d7d;
+   position:absolute;
+   left:5;
+   bottom:0;
+ }
+}
+`
 
 export const Color = styled.div`
   background-color: #fff;
   padding: 50px 0;
+  @media(max-width: 600px){
+    h1 {
+      font-size: 20px !important;
+    }
+    padding: 20px 0;
+  }
 `
 export const ImageCard = styled.div`
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
@@ -30,29 +93,32 @@ export const ImageCard = styled.div`
 export const Content = styled.div`
 @media(max-width: 1200px){
   padding: 0 20px;
+
+  > div {
+    align-self: start;
+  }
+
+  p {
+    align-self:start;
+  }
 }
   margin-top: 20px;
+  margin-bottom:20px;
   display:flex;
   flex-direction:column;
   align-items:center;
+
+
   p {
     font-size:17px;
     line-height: 1.4;
     margin-bottom: 20px;
     max-width: 600px;
     > strong {
-      
       border-bottom:2px solid #D50066;
       font-weight: 700;
     }
     
-  }
-  > div {
-    @media(max-width: 1200px){
-      :last-child {
-        display:none;
-      }
-    }
   }
 `
 

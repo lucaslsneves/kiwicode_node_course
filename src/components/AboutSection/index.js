@@ -13,10 +13,11 @@ function AboutSection () {
           <Content>
             <SectionTitle color={'#222'}>O que iremos construir</SectionTitle>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Fugiat laudantium doloribus molestias inventore architecto cupiditate distinctio aliquam, perspiciatis error delectus
-              commodi culpa officiis expedita perferendis non temporibus? Temporibus, exercitationem deleniti?
-      </p>
+              Nós iremos construir uma API em NodeJs e Typescript que gerencia uma Academia de Musculação.
+              Utilizando TDD com testes unitários e testes de integração automatizados,
+              Clean Architecture,princípios do SOLID e Docker.<br/>No final ainda vamos subir essa API em produção!
+              A missão da Kiwi Code com esse treinamento é te tornar apto e confiante para assumir vagas de nível pleno e sênior!
+            </p>
           </Content>
 
         </Container>

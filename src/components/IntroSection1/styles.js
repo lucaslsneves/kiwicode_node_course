@@ -15,8 +15,7 @@ export const Container = styled.div`
       }
     }
   }
-  padding: 40px;
-  background-color: black;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items:center;

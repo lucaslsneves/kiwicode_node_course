@@ -8,7 +8,7 @@ position:relative;
   span {
     margin-left: 4px;
     display: inline-flex;
-    font-size:20px;
+    font-size: ${props => `${props.fontSize}px`};
   }
   ::after{
     content: " ";
