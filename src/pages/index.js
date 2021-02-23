@@ -8,6 +8,7 @@ import JobsSection from '../components/JobsSection'
 import { MainColorContainer } from '../components/MainColorContainer'
 import TechsSection from '../components/TechsSection'
 import ConceptsSection from '../components/ConceptsSection'
+import BonusSection from '../components/BonusSection'
 
 function IndexPage () {
   return (
@@ -18,6 +19,7 @@ function IndexPage () {
       <TechsSection/>
       <JobsSection/>
       <ConceptsSection/>
+      <BonusSection/>
       <PriceSection/>
       <GlobalStyle />
     </MainColorContainer>

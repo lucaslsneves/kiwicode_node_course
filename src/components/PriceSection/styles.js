@@ -7,6 +7,11 @@ export const Container = styled.div`
  align-items:center;
  color: #fff;
 
+  div {
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+  }
  h1 {
    color:#00d56f;
  }
@@ -52,8 +57,32 @@ export const Container = styled.div`
       font-size: 17px;
     }
    }
-   :hover {
+   @media(max-width: 500px){
+   width: 100%;
+   > span {
+     margin-left: 25px;
+     
+   }
+ }
+ }
+ @media(max-width: 1200px){
+   flex-direction: column;
+   align-items:center;
+   justify-content:center;
+   padding:30px 20px;
 
+   h1 {
+   color:#00d56f;
+   font-size: 22px;
+ }
+   img {
+     margin-top: 15px;
+     width: 300px;
+   }
+   div {
+     > div {
+       align-self:center; 
+     }
    }
  }
 `
@@ -66,9 +95,11 @@ export const Pricing = styled.div`
   font-size: 25px;
   border: 1px solid #00d56f;
   color: #00d567;
-
+ 
   span {
     font-weight: 400;
     font-size: 27px;
   }
+ 
+  
 `

@@ -31,7 +31,7 @@ function PriceSection () {
               Suporte para tirar dúvidas
           </ListItem>
             <ListItem>
-              Garantia incondicional
+              Garantia incondicional de 7 dias
           </ListItem>
           </ul>
           <a><span>Comprar</span><h2>R$ 297 <br /><span>à vista</span></h2></a>

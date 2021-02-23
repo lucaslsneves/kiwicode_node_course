@@ -6,6 +6,8 @@ export const Color = styled.div`
 export const Container = styled.div`
   margin-top: 30px;
   padding-bottom:40px;
+  padding-right:70px;
+  padding-left: 70px;
   display:flex;
   justify-content: space-between;
   color: #222;
