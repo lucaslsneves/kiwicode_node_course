@@ -10,7 +10,7 @@ function FooterSection () {
           <AiOutlineCopyrightCircle size={20}/>
           <h1>Kiwi Code todos os direitos reservados</h1>
           </div>
-          <a href="https://youtube.com" rel="noreferrer" target="_blank"><AiFillYoutube size={25} color={'#fff'}/></a>
+          <a href="https://www.youtube.com/channel/UCNhqGgjgKZ4kUvc8v05HQAQ" rel="noreferrer" target="_blank"><AiFillYoutube size={25} color={'#fff'}/></a>
       </Container>
     </ContainerMaxWidth>
   )
