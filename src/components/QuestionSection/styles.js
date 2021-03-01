@@ -70,7 +70,6 @@ padding-bottom: 30px;
 .accordion__panel {
     background-color:  #fff;
     padding: 20px;
-    animation: fadein 0.35s ease-in;
 }
 
 /* -------------------------------------------------- */
