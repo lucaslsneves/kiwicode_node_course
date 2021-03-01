@@ -2,6 +2,12 @@ import styled from 'styled-components'
 
 export const Color = styled.div`
   background-color: #fff; 
+
+  div {
+    h1 {
+      text-align:center;
+    }
+  }
 `
 export const Container = styled.div`
   margin-top: 30px;

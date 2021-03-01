@@ -100,6 +100,11 @@ export const Pricing = styled.div`
     font-weight: 400;
     font-size: 27px;
   }
- 
+ @media(max-width:1200px){
+   font-size:22px;
+   span {
+     font-size: 24px;
+   }
+ }
   
 `
