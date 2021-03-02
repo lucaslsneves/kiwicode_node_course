@@ -46,6 +46,10 @@ border-radius: 20px;
     width: 100%;
     margin-bottom: 15px;
   }
+
+  @media(max-width: 330px){
+    height: 380px;
+  }
 `
 
 export const Container = styled.div`
