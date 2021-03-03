@@ -8,6 +8,7 @@ background-color:#fff;
 color: #222;
 padding: 15px;
 border-radius: 20px;
+margin-top:30px;
   display:flex;
   flex-direction:column;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
