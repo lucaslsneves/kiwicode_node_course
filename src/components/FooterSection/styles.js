@@ -4,7 +4,7 @@ export const Container = styled.div`
   padding-top: 90px;
   padding-bottom:30px;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   @media(max-width: 1100px){
     padding-top: 0;
