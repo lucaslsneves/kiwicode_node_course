@@ -9,13 +9,13 @@ function MyApp ({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/kiwi-yout.png" />
       </Head>
     <NextSeo
-        title="Kiwi Code - Curso Clean Architecture NodeJs"
+        title="Kiwi Code - Curso Clean NodeJs"
         description="Aprenda criar uma API com NodeJs e Typescript utilizando boas práticas como: Clean Architecture,SOLID e TDD"
         canonical="https://kiwicode.com.br/"
         openGraph={{
           url: 'https://kiwicode.com.br/',
           title:
-            'Kiwi Code - Curso Clean NodeJs',
+            'Kiwi Code - Curso Clean Architecture NodeJs',
           description:
             'Aprenda a criar uma API com NodeJs e Typescript utilizando boas práticas como: Clean Architecture,SOLID e TDD',
           site_name: 'Kiwi Code',
