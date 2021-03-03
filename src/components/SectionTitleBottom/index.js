@@ -25,7 +25,7 @@ align-items:center;
  
 `
 
-function SectionTitle ({ color, children }) {
+function SectionTitle ({ color = '#fff', children }) {
   return <Title color={color}>
     <h1>{children}</h1>
     <div />

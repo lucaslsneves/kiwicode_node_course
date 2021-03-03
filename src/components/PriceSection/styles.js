@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
- padding: 40px 0;
+ margin-bottom:120px;
  display: flex;
  justify-content:space-between;
  align-items:center;
@@ -66,17 +66,18 @@ export const Container = styled.div`
  }
  }
  @media(max-width: 1200px){
+   margin-bottom:30px;
    flex-direction: column;
    align-items:center;
    justify-content:center;
-   padding:30px 20px;
+   padding:0 20px;
 
    h1 {
    color:#00d56f;
    font-size: 22px;
  }
    img {
-     margin-top: 15px;
+     margin-top: 30px;
      width: 300px;
    }
    div {

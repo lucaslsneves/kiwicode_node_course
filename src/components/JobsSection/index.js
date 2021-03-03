@@ -1,14 +1,13 @@
 import ListItem from '../ListItem'
 import { ContainerMaxWidth } from '../MaxWidthContainer'
 import SectionTitle from '../SectionTitle'
-import { Color, Content, Jobs, JobItem } from './styles'
+import { Content, Jobs, JobItem } from './styles'
 export default function JobsSection () {
   return (
 
-    <Color>
       <ContainerMaxWidth>
         <Content>
-          <SectionTitle color={'#222'}>Vagas no mercado de trabalho</SectionTitle>
+          <SectionTitle color={'#fff'}>Vagas no mercado de trabalho</SectionTitle>
           <p>O mercado de trabalho está necessitando de profissionais
           que saibam desenvolver softwares de qualidade.<br /> <strong>Com o conhecimento do curso você estará apto
           para ocupar vagas de desenvolvedor nível Pleno ou até vagas nível Sênior</strong>!
@@ -29,7 +28,7 @@ export default function JobsSection () {
                 <p>Fonte: Geek Hunter</p>
               </div>
             </JobItem>
-            <JobItem backgroundColor="#111">
+            <JobItem backgroundColor="#222">
               <h3>Desenvolvedor Sênior</h3>
               <div>
                 <h4>Requisitos</h4>
@@ -58,7 +57,6 @@ export default function JobsSection () {
           </Jobs>
         </Content>
       </ContainerMaxWidth>
-    </Color >
 
   )
 }

@@ -1,24 +1,26 @@
 import styled from 'styled-components'
 
 export const Color = styled.div`
-  background-color: #fff;
+  background-color: #111;
   padding: 20px 0;
 `
 export const Container = styled.div`
+
+color:#fff;
   @media(max-width:1180px) {
     display:flex;
     flex-direction: column;
     justify-content:center;
-    margin-top: 25px;
+    margin-top: 30px;
     padding: 20px; 
     img { 
       width: 300px;
     }
   }
 
-  background-color: #fff;
+  background-color: #111;
   padding: 50px 100px;
-  margin-top: 30px;
+  margin-top: 120px;
   display:flex;
   justify-content:space-between;
   align-items: center;

@@ -4,9 +4,11 @@ export const Jobs = styled.div`
   margin-top: 0px;
   flex-direction:column;
   align-items:center;
+  margin-bottom: 30px;
 }
 margin-top: 40px;
 width:100%;
+margin-bottom:120px;
   display:flex;
   justify-content:space-between;
 `
@@ -14,12 +16,12 @@ width:100%;
 export const JobItem = styled.div`
 position:relative;
 @media(max-width: 1200px){
- margin-top: 15px;
+ margin-top: 30px;
 }
 @media(max-width: 440px){
  width: 100%;
 }
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+box-shadow: rgba(100,100,111,0.) 0px 7px 29px 0px;
 display:flex;
 flex-direction: column;
 height:350px;
@@ -110,6 +112,8 @@ export const Content = styled.div`
 
 
   p {
+    color:#fff;
+    margin-top:20px;
     font-size:17px;
     line-height: 1.4;
     margin-bottom: 20px;

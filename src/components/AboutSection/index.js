@@ -1,17 +1,17 @@
 import React from 'react'
 import { ContainerMaxWidth } from '../MaxWidthContainer'
 import SectionTitle from '../SectionTitle'
-import { Container, Content, Color } from './styles'
+import { Container, Content } from './styles'
 
 function AboutSection () {
   return (
-    <Color>
+
       <ContainerMaxWidth color="#fff">
         <Container>
 
           <img src="/about.png" alt="Sobre o curso" />
           <Content>
-            <SectionTitle color={'#222'}>O que iremos construir</SectionTitle>
+            <SectionTitle color={'#fff'}>O que iremos construir</SectionTitle>
             <p>
               Nós iremos construir uma API em NodeJs e Typescript que gerencia uma Academia de Musculação.
               Utilizando TDD com testes unitários e testes de integração automatizados,
@@ -22,7 +22,7 @@ function AboutSection () {
 
         </Container>
       </ContainerMaxWidth>
-    </Color>
+
   )
 }
 

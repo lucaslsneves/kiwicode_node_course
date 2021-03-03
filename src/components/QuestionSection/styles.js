@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Color = styled.section`
 padding-top: 30px;
-background-color:#fff;
+background-color:#111;
 padding-bottom: 30px;
+
 @media(max-width: 800px){
     padding-right:20px; 
     padding-left:20px; 
@@ -13,7 +14,7 @@ padding-bottom: 30px;
     }
 }
     .accordion {
-        margin-top:20px;
+        margin-top:30px;
     border-radius: 2px;
     
 }
@@ -21,7 +22,7 @@ padding-bottom: 30px;
 .accordion__item {
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-bottom:15px;
+  margin-bottom:30px;
 
   p {
       font-size:15px;

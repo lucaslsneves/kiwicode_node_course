@@ -3,12 +3,11 @@ import ListItem from '../ListItem'
 import SectionTitleBottom from '../SectionTitleBottom'
 import { ContainerMaxWidth } from '../MaxWidthContainer'
 
-import { Container, Color } from './styles'
+import { Container } from './styles'
 
 function ConceptsSection () {
   return (
 
-    <Color>
       <ContainerMaxWidth>
         <SectionTitleBottom>Conceitos que você irá aprender</SectionTitleBottom>
         <Container>
@@ -31,7 +30,7 @@ function ConceptsSection () {
           </ul>
         </Container>
       </ContainerMaxWidth>
-    </Color>
+
   )
 }
 

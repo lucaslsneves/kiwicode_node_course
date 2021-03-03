@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 export const Color = styled.section`
-  background-color: #fff;
+  background-color: #000;
 `
 export const Bonus = styled.div`
 position:relative;
+background-color:#fff;
 color: #222;
 padding: 15px;
 border-radius: 20px;
@@ -44,7 +45,7 @@ border-radius: 20px;
 
   @media(max-width: 1200px){
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   @media(max-width: 330px){
@@ -54,12 +55,12 @@ border-radius: 20px;
 
 export const Container = styled.div`
 padding: 0 100px;
-padding-bottom: 40px;
-margin-top: 30px;
+margin-bottom: 120px;
   display:flex;
   justify-content:space-between;
 
   @media(max-width: 1200px){
+    margin-bottom: 30px;
     margin-top: 15px;
     padding: 20px;
     flex-direction:column;

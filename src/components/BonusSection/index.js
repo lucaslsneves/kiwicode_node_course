@@ -2,10 +2,10 @@ import React from 'react'
 import SectionTitleBottom from '../SectionTitleBottom'
 import { ContainerMaxWidth } from '../MaxWidthContainer'
 
-import { Container, Color, Bonus } from './styles'
+import { Container, Bonus } from './styles'
 
 function BonusSection () {
-  return <Color>
+  return (
     <ContainerMaxWidth>
       <SectionTitleBottom>Super Bonûs</SectionTitleBottom>
       <Container>
@@ -24,7 +24,7 @@ function BonusSection () {
         </Bonus>
       </Container>
     </ContainerMaxWidth>
-  </Color>
+  )
 }
 
 export default BonusSection
