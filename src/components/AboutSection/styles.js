@@ -9,7 +9,8 @@ export const Container = styled.div`
 color:#fff;
   @media(max-width:1180px) {
     display:flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
     justify-content:center;
     margin-top: 30px;
     padding: 20px; 
@@ -28,7 +29,7 @@ color:#fff;
 
 export const Content = styled.div`
 @media(max-width:1180px) {
-  margin-top:25px;
+  margin-bottom:30px;
 }
   display:flex;
   flex-direction:column;
