@@ -11,7 +11,7 @@ function PriceSection () {
           <h1>Preço exclusivo para 1ª turma, apenas:</h1>
           <Pricing>
             <h2>
-              <span>12x</span>  R$ 22,99
+              <span>12x</span>  R$ 29,82
               </h2>
           </Pricing>
           <ul>
@@ -34,7 +34,7 @@ function PriceSection () {
               Garantia incondicional de 7 dias
           </ListItem>
           </ul>
-          <a><span>Comprar</span><h2>R$ 297 <br /><span>à vista</span></h2></a>
+          <a href="https://go.kiwify.com.br/sxHv4hR"><span>Comprar</span><h2>R$ 297 <br /><span>à vista</span></h2></a>
         </div>
         <img src="/pricing.png" alt="Curso NodeJs Clean Architecture" />
       </Container>

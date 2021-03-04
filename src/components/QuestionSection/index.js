@@ -47,6 +47,19 @@ export default function QuestionSection () {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
+               Qual a carga horária?
+                    </AccordionItemButton>
+            </AccordionItemHeading>
+            <AccordionItemPanel>
+              <p>
+               O curso ainda está sendo gravando,mas serão aproximadamente 40 horas de conteúdo.
+                    </p>
+            </AccordionItemPanel>
+
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemHeading>
+              <AccordionItemButton>
                 Por quanto tempo terei acesso ao treinamento?
                     </AccordionItemButton>
             </AccordionItemHeading>
@@ -65,8 +78,9 @@ export default function QuestionSection () {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                As aulas serão liberadas semanalmente.
-                    </p>
+                As aulas serão liberadas semanalmente.<br/>
+
+                </p>
             </AccordionItemPanel>
 
           </AccordionItem>
